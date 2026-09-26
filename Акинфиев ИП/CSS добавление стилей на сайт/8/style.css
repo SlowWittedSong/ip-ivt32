@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.promo_wrapper
+{
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.promo_content
+{
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 0 20px;
+}
+
+.logo
+{
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-bottom: 60px;
+}
+
+.promo_title
+{
+    font-family: 'Georgia', serif;
+    font-size: 52px;
+    line-height: 1.15;
+    font-weight: bold;
+    color: #1a1a4e;
+    margin-bottom: 24px;
+}
+
+.promo_text
+{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #8a8a9a;
+    margin-bottom: 32px;
+    max-width: 380px;
+}
+
+.buttons
+{
+    margin-bottom: 60px;
+}
+
+.button_primary,
+.button_secondary
+{
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.button_primary
+{
+    background-color: #2a2ad4;
+    color: #ffffff;
+    border: none;
+}
+
+.button_primary:hover
+{
+    background-color: #1f1fa8;
+}
+
+.button_secondary
+{
+    background-color: transparent;
+    color: #e88a8a;
+    border: 1px solid #f0b8b8;
+}
+
+.button_secondary:hover
+{
+    border-color: #e88a8a;
+}
+
+.promo_image
+{
+    display: block;
+    max-width: 100%;
+}
